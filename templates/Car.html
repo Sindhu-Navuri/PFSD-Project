@@ -1,0 +1,41 @@
+{% extends 'Navbar.html' %}
+{% load static %}
+<html lang="en">
+{% block body %}
+<div class="card-group">
+  <div class="card">
+    <img src="{% static 'images/img_5.png' %}" alt="My image" width="290" height="200"/>
+    <div class="card-body">
+      <h5 class="Card-title">Siddu Travels</h5>
+      <p class="card-text">Travel Freaks</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary">Last updated 3 mins ago</small>
+      <a href="#" class="btn btn-primary">Book Ticket</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="{% static 'images/img_4.png' %}" alt="My image" width="290" height="200"/>
+    <div class="card-body">
+      <h5 class="Card-title">NSK Travels</h5>
+      <p class="card-text">Conquere the world of Travelling</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary">Last updated 3 mins ago</small>
+      <a href="#" class="btn btn-primary">Book Ticket</a>
+    </div>
+  </div>
+  <div class="card">
+    <img src="{% static 'images/img_3.png' %}" alt="My image" width="290" height="200"/>
+    <div class="card-body">
+      <h5 class="Card-title">NS Travels</h5>
+      <p class="card-text">Live your travel dreams</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-body-secondary">Last updated 3 mins ago</small>
+      <a href="#" class="btn btn-primary">Book Ticket</a>
+    </div>
+  </div>
+</div>
+{% endblock %}
+</html>
